@@ -68,4 +68,49 @@
 //     echo $total;
 // }
 // suma(6,8);
+
+// !ESTRUCTURAS DE CONTROL
+
+// *IF - ELSE
+// $user="mai";
+// $pass= "mai";
+// if($user== $pass){
+// echo "Si coinciden";
+// }else{
+//     echo "No coindiden";
+// }
+
+// *WHILE 1
+// $a=0;
+// $fruits = array('mango', 'pera', 'manzana');
+// while ($a < count($fruits)) {
+//     echo $fruits[$a]. "<br>";
+//     $a++; 
+// }
+
+// *DO-WHILE
+// $x=0;
+// do {
+//     echo "The number  is: $x <br>";
+//     $x++;
+// } while ($x <= 10);
+
+// *SWITCH-CASE
+// $variable = 3;
+// switch ($variable) {
+//     case 1:
+//         echo "Es igual a 1";
+//         break;
+//     case 2:
+//         echo "Es igual a 2";
+//         break;
+//     case 3:
+//         echo "Es igual a 3";
+//         break;
+    
+//     default:
+//         # code...
+//         break;
+// }
+
 ?>
